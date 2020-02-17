@@ -1,0 +1,128 @@
+/* Format for applying styling rules */
+[selector] {
+  [property]: [value];
+}
+
+/* Global Styles go here */
+body {
+  background: beige;
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  line-height: 2px;
+  max-width: 3000px;
+  height: 1800px;
+}
+
+
+.text-frag {
+  display: inline-block;
+  margin-right: 3ch;
+  margin-bottom: 2ch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  display: block;
+  float: right;
+  text-align: center;
+  border-top: dotted 0.5px black;
+	border-radius: 50px;
+  padding-top: 30px;
+	width: 210px;
+	height: 100px;
+  font-stretch: normal;
+  line-height: 25px;
+
+}
+
+.button:hover {
+  box-shadow: 2px 2px 2px ForestGreen	, 0 0 25px ForestGreen, 0 0 5px ForestGreen;
+}
+
+.button1 {
+  display: block;
+  float: right;
+  text-align: center;
+  border-top: dotted 0.5px black;
+	border-radius: 50px;
+  padding-top: 30px;
+	width: 110px;
+	height: 100px;
+  font-stretch: normal;
+  line-height: 25px;
+}
+
+.button2 {
+  display: block;
+  float: right;
+  text-align: center;
+  border-top: dotted 0.5px black;
+	border-radius: 50px;
+  padding-top: 30px;
+	width: 110px;
+	height: 100px;
+  font-stretch: normal;
+  line-height: 25px;
+}
+
+.button2:hover {
+  box-shadow: 2px 2px 2px Gainsboro	, 0 0 25px LightSteelBlue		, 0 0 5px Gainsboro;
+}
+
+.button1:hover {
+  box-shadow: 2px 2px 2px mediumslateblue	, 0 0 25px mediumslateblue, 0 0 5px mediumslateblue;
+}
+
+
+.button3 {
+  display: block;
+  float: right;
+  text-align: center;
+  border-top: dotted 1px black;
+	border-radius: 50px;
+  padding-top: 30px;
+	width: 240px;
+	height: 100px;
+  font-stretch: normal;
+  line-height: 20px;
+}
+
+.center {
+  align-content: centre;
+  padding-top: 400px;
+  margin-left: 3ch;
+  margin-right: 3ch;
+  padding-left: 600px;
+  padding-bottom: 400px;
+
+}
+.center:hover {
+  box-shadow: 2px 0px 0px 0px Gainsboro, 0 0 25px Gainsboro, 0 0 5px Gainsboro;
+  transition: 5s;
+}
+
+.center:hover {
+   color: white, mediumslateblue, olive;
+   transition: 5s;
+
+}
+
+a:link, a:visited {
+color: black;
+text-decoration: none;
+display: inline-block;
+}
+
+a:active { color: white;}
+a:hover { color: black;}
+
+footer {
+  border-top: 1px;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
