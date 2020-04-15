@@ -1,0 +1,64 @@
+/* Format for applying styling rules */
+[selector] {
+  [property]: [value];
+}
+
+/* Global Styles go here */
+body {
+  background: LightGoldenrodYellow;
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  line-height: 1.5;
+  max-width: 4000px;
+  height: auto;
+}
+
+.content {
+  margin: 20px;
+}
+
+img{
+    width: 40%;
+    border-radius: 100%;
+}
+
+
+
+img:hover{
+    box-shadow: 1px 1px 2px cornflowerblue, 0 0 25px cornflowerblue, 0 0 5px cornflowerblue;
+}
+
+img:hover{
+  opacity: 0;
+  transition: 5s;
+}
+
+img:hover {
+  width: 80%;
+}
+
+.text-frag {
+  display: inline-block;
+  margin-right: 3ch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:link, a:visited {
+color: green;
+text-decoration: none;
+display: inline-block;
+}
+
+a:active { color: white; }
+a:hover { color: white;}
+
+footer {
+  border-top: 1px;
+  position: static;
+  bottom: 10px;
+  width: 100%;
+}
