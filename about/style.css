@@ -1,0 +1,43 @@
+/* Format for applying styling rules */
+[selector] {
+  [property]: [value];
+}
+
+/* Global Styles go here */
+body {
+  background: mediumslateblue;
+  color: black;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  line-height: 1.5;
+  max-width:
+}
+
+.info {
+
+}
+
+.text-frag {
+  display: inline-block;
+  margin-right: 3ch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a:link, a:visited {
+color: beige;
+text-decoration: none;
+display: inline-block;
+}
+
+a:active { color: white;}
+a:hover { color: white;}
+
+footer {
+  border-top: 1px;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+}
